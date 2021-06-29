@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/stack/PolandNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/stack/ReservePolishMultiCal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/recursion/MigongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/recursion/Queue8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/array/SparseArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/array/SparseArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/Boy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/Boy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/CircleSingleLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/CircleSingleLink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/DoubleLinkedNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/DoubleLinkedNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/HeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/HeroNode2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/HeroNode2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/Josepfu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/Josepfu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/SingleHeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/SingleHeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/linkedlist/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/queue/ArrQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/queue/ArrQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/queue/ArrQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/queue/ArrQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/queue/CircleArrQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/queue/CircleArrQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/queue/CircleArrQueueQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/queue/CircleArrQueueQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ArrStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ArrStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ArrStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ArrStackDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ExpressionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/stack/ExpressionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/stack/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/stack/LinkedStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/stack/LinkedStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/stack/LinkedStackDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/structure/stack/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/structure/stack/Node.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ReservePolishMultiCal">
-    <configuration name="ArrStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.structure.stack.ArrStackDemo" />
-      <module name="StructureAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.structure.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Queue8">
     <configuration name="ExpressionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.structure.stack.ExpressionDemo" />
       <module name="StructureAlgorithm" />
@@ -86,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.structure.stack.LinkedStackDemo" />
+    <configuration name="MigongTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.recursion.MigongTest" />
       <module name="StructureAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.structure.stack.*" />
+          <option name="PATTERN" value="com.study.algorithm.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.structure.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Queue8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.recursion.Queue8" />
+      <module name="StructureAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.algorithm.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue8" />
+        <item itemvalue="Application.MigongTest" />
         <item itemvalue="Application.ReservePolishMultiCal" />
         <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.ExpressionDemo" />
-        <item itemvalue="Application.LinkedStackDemo" />
-        <item itemvalue="Application.ArrStackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +142,8 @@
       <workItem from="1623896771682" duration="9394000" />
       <workItem from="1623981277432" duration="12585000" />
       <workItem from="1624442568182" duration="13022000" />
+      <workItem from="1624851718472" duration="4781000" />
+      <workItem from="1624938687361" duration="4847000" />
     </task>
     <servers />
   </component>
@@ -179,22 +159,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state width="1323" height="109" key="GridCell.Tab.0.bottom" timestamp="1624520379492">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1624528911635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624520379492" />
-    <state width="1323" height="109" key="GridCell.Tab.0.center" timestamp="1624520379492">
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1624528911635" />
+    <state width="1323" height="275" key="GridCell.Tab.0.bottom" timestamp="1624950637810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624520379492" />
-    <state width="1323" height="109" key="GridCell.Tab.0.left" timestamp="1624520379492">
+    <state width="1323" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624950637810" />
+    <state width="1323" height="275" key="GridCell.Tab.0.center" timestamp="1624950637809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624520379492" />
-    <state width="1323" height="109" key="GridCell.Tab.0.right" timestamp="1624520379492">
+    <state width="1323" height="275" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624950637809" />
+    <state width="1323" height="275" key="GridCell.Tab.0.left" timestamp="1624950637809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624520379492" />
+    <state width="1323" height="275" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624950637809" />
+    <state width="1323" height="275" key="GridCell.Tab.0.right" timestamp="1624950637810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="275" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624950637810" />
     <state width="1323" height="308" key="GridCell.Tab.1.bottom" timestamp="1624519864126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
