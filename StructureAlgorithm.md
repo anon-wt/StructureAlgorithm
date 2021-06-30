@@ -228,7 +228,6 @@
    * **排序添加** 和单项链表略微相同， 在其之上稍微修改即可
 
 3. 代码如下：[双向表代码](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/structure/linkedlist/DoubleLinkedList.java)
-   
 
 ## 单向环形链表
 
@@ -360,5 +359,35 @@
    8. 依次弹出s2中的元素并输出， 结果的逆序则为中缀表达式的后缀表达式
 5. [逆波兰表达式计算](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/structure/stack/PolandNotation.java)
 
+# 递归
 
+## 递归基本概念
+
+1. 递归需要遵守的基本规则
+
+* 执行一个方法时，就创建一个新的受保护的独立空间（栈空间）
+* 方法的局部变量是独立的，不会相互影响
+* 递归必须向退出递归的条件逼近，否则就是无限递归，死循环了
+* 当一个方法执行完毕，或者遇到return,就会返回，遵守谁调用，就将结果返回给谁，同时当方法执行完毕或者返回时，该方法也就执行完毕。
+
+2. 递归能解决的问题
+
+* 各种数学问题，皇后问题，汉诺塔问题，阶乘问题，迷宫问题，球和篮子问题
+* 各种算法中也会用到递归，比如快排，归并排序，二分查找，分治算法等
+* 将用栈解决的问题 -》 递归代码更为简洁
+
+3. 迷宫问题解法
+   * 用i,j表示从地图的那个位置出发（1，1）
+   * 如果小球达到map(6,5) 位置，则说明通路找到
+   * 约定当map(i,j)为0时，表示该点未走过，当为1时，表示墙，2表示通路可以走，3表示该点已经走过，但是走不通
+   * 在走迷宫时， 需要确定一个策略下-》右-》上-》左，如果哦该店走不通过，则回溯
+   * 代码如下： [迷宫问题](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/recursion/MigongTest.java)
+
+4. 八皇后问题解法
+   * 第一个皇后放在第一行第一列
+   * 第二个皇后放在第二行第一列，然后判断是否ok,如果不ok ，继续放在第二行第二列，第三列，依次吧所有列放完，找到合适的位置
+   * 继续第三个皇后，还是第一列第二列...第八列，也能放在一个不冲突的位置，算是找到一个正确解
+   * 当找到一个正确解时，回退到上一个栈，就开始回溯，即将第一个皇后放在第一列的所有解都找到
+   * 然后回头在把第一个皇后放在第二列.重复1-4，直到找到所有解
+   * 代码如下： [八皇后问题](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/recursion/Queue8.java)
 
