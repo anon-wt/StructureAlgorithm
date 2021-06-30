@@ -42,6 +42,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\study\StructureAlgorithm" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.BubbleSort" />
@@ -197,30 +202,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625048660415">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625048719047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625048660415" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625048719047" />
     <state x="122" y="55" key="DiffContextDialog" timestamp="1625023709990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1625023709990" />
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1625048278801">
+    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1625048711217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
-    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1625048278801">
+    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625048711217" />
+    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1625048711216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
-    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1625048278801">
+    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625048711216" />
+    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1625048711216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
-    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1625048278801">
+    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625048711216" />
+    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1625048711216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
+    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625048711216" />
     <state width="1323" height="109" key="GridCell.Tab.1.bottom" timestamp="1625048029196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -237,6 +242,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="109" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625048029196" />
+    <state x="553" y="86" key="RollbackChangesDialog" timestamp="1625048722146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="86" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625048722146" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625048431868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
