@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/recursion/MigongTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/recursion/Queue8.java" afterDir="false" />
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="递归问题">
+      <change afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -36,6 +36,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Queue8">
     <configuration name="ExpressionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -143,14 +146,31 @@
       <workItem from="1623981277432" duration="12585000" />
       <workItem from="1624442568182" duration="13022000" />
       <workItem from="1624851718472" duration="4781000" />
-      <workItem from="1624938687361" duration="4847000" />
+      <workItem from="1624938687361" duration="5623000" />
+      <workItem from="1625017511121" duration="2843000" />
     </task>
+    <task id="LOCAL-00001" summary="递归问题">
+      <created>1624962303485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624962303485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="递归问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归问题" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1625020445200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1625020445200" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1624000531208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -159,10 +179,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1624528911635">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625020479460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1624528911635" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625020479460" />
     <state width="1323" height="275" key="GridCell.Tab.0.bottom" timestamp="1624950637810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -195,6 +215,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="308" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1624519864125" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624962345781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624962345781" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1625020356293">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625020356293" />
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624962320147">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1624962320147" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1623814236796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
