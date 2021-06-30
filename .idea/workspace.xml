@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/BubbleSort.java" afterDir="false" />
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="冒泡算法">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StructureAlgorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -164,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625023720314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="冒泡算法">
+      <created>1625048407916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625048407916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递归问题" />
     <MESSAGE value="递归问题-md" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归问题-md" />
+    <MESSAGE value="冒泡算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1625020445200">
@@ -188,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625023719200">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625048424210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625023719200" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625048424210" />
     <state x="122" y="55" key="DiffContextDialog" timestamp="1625023709990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -228,10 +237,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="109" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625048029196" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624962345781">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625048431868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624962345781" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625048431868" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1625021775144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
