@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="递归问题">
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StructureAlgorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +41,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Queue8">
-    <configuration name="ExpressionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.structure.stack.ExpressionDemo" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.BubbleSort" />
       <module name="StructureAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.structure.stack.*" />
+          <option name="PATTERN" value="com.study.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Queue8" />
         <item itemvalue="Application.MigongTest" />
         <item itemvalue="Application.ReservePolishMultiCal" />
         <item itemvalue="Application.PolandNotation" />
-        <item itemvalue="Application.ExpressionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624962303485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="递归问题-md">
+      <created>1625023720314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625023720314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递归问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归问题" />
+    <MESSAGE value="递归问题-md" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归问题-md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1625020445200">
@@ -178,50 +188,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625020479460">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625023719200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625020479460" />
-    <state width="1323" height="275" key="GridCell.Tab.0.bottom" timestamp="1624950637810">
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625023719200" />
+    <state x="122" y="55" key="DiffContextDialog" timestamp="1625023709990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624950637810" />
-    <state width="1323" height="275" key="GridCell.Tab.0.center" timestamp="1624950637809">
+    <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1625023709990" />
+    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1625048278801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="275" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624950637809" />
-    <state width="1323" height="275" key="GridCell.Tab.0.left" timestamp="1624950637809">
+    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
+    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1625048278801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="275" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624950637809" />
-    <state width="1323" height="275" key="GridCell.Tab.0.right" timestamp="1624950637810">
+    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
+    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1625048278801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="275" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624950637810" />
-    <state width="1323" height="308" key="GridCell.Tab.1.bottom" timestamp="1624519864126">
+    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
+    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1625048278801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624519864126" />
-    <state width="1323" height="308" key="GridCell.Tab.1.center" timestamp="1624519864125">
+    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625048278801" />
+    <state width="1323" height="109" key="GridCell.Tab.1.bottom" timestamp="1625048029196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1624519864125" />
-    <state width="1323" height="308" key="GridCell.Tab.1.left" timestamp="1624519864125">
+    <state width="1323" height="109" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625048029196" />
+    <state width="1323" height="109" key="GridCell.Tab.1.center" timestamp="1625048029195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1624519864125" />
-    <state width="1323" height="308" key="GridCell.Tab.1.right" timestamp="1624519864125">
+    <state width="1323" height="109" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625048029195" />
+    <state width="1323" height="109" key="GridCell.Tab.1.left" timestamp="1625048029195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1624519864125" />
+    <state width="1323" height="109" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625048029195" />
+    <state width="1323" height="109" key="GridCell.Tab.1.right" timestamp="1625048029196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="109" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625048029196" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624962345781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624962345781" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1625020356293">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1625021775144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625020356293" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625021775144" />
     <state x="475" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624962320147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
