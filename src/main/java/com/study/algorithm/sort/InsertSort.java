@@ -24,6 +24,5 @@ public class InsertSort {
                 System.out.println("第" + i + "次处理" + Arrays.toString(arr));
             }
         }
-
     }
 }

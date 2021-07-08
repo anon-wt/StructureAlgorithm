@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="冒泡算法">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="新增ignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="D:\project\study\StructureAlgorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.BubbleSort" />
       <module name="StructureAlgorithm" />
@@ -61,25 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MigongTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.recursion.MigongTest" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.InsertSort" />
       <module name="StructureAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.algorithm.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.structure.stack.PolandNotation" />
-      <module name="StructureAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.structure.stack.*" />
+          <option name="PATTERN" value="com.study.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservePolishMultiCal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.structure.stack.ReservePolishMultiCal" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.SelectSort" />
       <module name="StructureAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.structure.stack.*" />
+          <option name="PATTERN" value="com.study.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.ShellSort" />
+      <module name="StructureAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Queue8" />
-        <item itemvalue="Application.MigongTest" />
-        <item itemvalue="Application.ReservePolishMultiCal" />
-        <item itemvalue="Application.PolandNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +156,10 @@
       <workItem from="1624851718472" duration="4781000" />
       <workItem from="1624938687361" duration="5623000" />
       <workItem from="1625017511121" duration="2843000" />
+      <workItem from="1625106286258" duration="4592000" />
+      <workItem from="1625210829553" duration="4395000" />
+      <workItem from="1625646233922" duration="763000" />
+      <workItem from="1625712151253" duration="4156000" />
     </task>
     <task id="LOCAL-00001" summary="递归问题">
       <created>1624962303485</created>
@@ -177,7 +182,35 @@
       <option name="project" value="LOCAL" />
       <updated>1625048407916</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增ignore">
+      <created>1625048553636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625048553636</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增ignore">
+      <created>1625048685486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625048685486</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增ignore">
+      <created>1625048751371</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625048751371</updated>
+    </task>
+    <task id="LOCAL-00007" summary="插入排序算法">
+      <created>1625116050872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625116050872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +220,9 @@
     <MESSAGE value="递归问题" />
     <MESSAGE value="递归问题-md" />
     <MESSAGE value="冒泡算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="冒泡算法" />
+    <MESSAGE value="新增ignore" />
+    <MESSAGE value="插入排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="插入排序算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1625020445200">
@@ -202,54 +237,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625048719047">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1625116084508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625048719047" />
-    <state x="122" y="55" key="DiffContextDialog" timestamp="1625023709990">
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1625116084508" />
+    <state x="122" y="55" key="DiffContextDialog" timestamp="1625116065471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1625023709990" />
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom" timestamp="1625048711217">
+    <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1625116065471" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1625735151469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625048711217" />
-    <state width="1323" height="154" key="GridCell.Tab.0.center" timestamp="1625048711216">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625735151469" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1625735151469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625048711216" />
-    <state width="1323" height="154" key="GridCell.Tab.0.left" timestamp="1625048711216">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625735151469" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1625735151469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625048711216" />
-    <state width="1323" height="154" key="GridCell.Tab.0.right" timestamp="1625048711216">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625735151469" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1625735151469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625048711216" />
-    <state width="1323" height="109" key="GridCell.Tab.1.bottom" timestamp="1625048029196">
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625735151469" />
+    <state width="1323" height="266" key="GridCell.Tab.1.bottom" timestamp="1625735106485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625048029196" />
-    <state width="1323" height="109" key="GridCell.Tab.1.center" timestamp="1625048029195">
+    <state width="1323" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625735106485" />
+    <state width="1323" height="266" key="GridCell.Tab.1.center" timestamp="1625735106484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625048029195" />
-    <state width="1323" height="109" key="GridCell.Tab.1.left" timestamp="1625048029195">
+    <state width="1323" height="266" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625735106484" />
+    <state width="1323" height="266" key="GridCell.Tab.1.left" timestamp="1625735106484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625048029195" />
-    <state width="1323" height="109" key="GridCell.Tab.1.right" timestamp="1625048029196">
+    <state width="1323" height="266" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625735106484" />
+    <state width="1323" height="266" key="GridCell.Tab.1.right" timestamp="1625735106484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="109" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625048029196" />
+    <state width="1323" height="266" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625735106484" />
     <state x="553" y="86" key="RollbackChangesDialog" timestamp="1625048722146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="86" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625048722146" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625048431868">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625116102373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625048431868" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625116102373" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1625021775144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -289,6 +324,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/study/structure/stack/ReservePolishMultiCal.java</url>
           <line>47</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/ShellSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
