@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="快速 排序">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StructureAlgorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <workItem from="1625646233922" duration="763000" />
       <workItem from="1625712151253" duration="4939000" />
       <workItem from="1626058146960" duration="5957000" />
-      <workItem from="1629009039750" duration="5453000" />
+      <workItem from="1629009039750" duration="6152000" />
     </task>
     <task id="LOCAL-00001" summary="递归问题">
       <created>1624962303485</created>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629011858093</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="快速 排序">
+      <created>1629022309279</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629022309279</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +244,8 @@
     <MESSAGE value="新增ignore" />
     <MESSAGE value="插入排序算法" />
     <MESSAGE value="shell 排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="shell 排序" />
+    <MESSAGE value="快速 排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="快速 排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1629009137915">
@@ -253,46 +260,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1629022282786">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1629022320451">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629022282786" />
-    <state x="122" y="55" key="DiffContextDialog" timestamp="1625116065471">
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629022320451" />
+    <state x="122" y="55" key="DiffContextDialog" timestamp="1629022300303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1625116065471" />
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1629022242784">
+    <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1629022300303" />
+    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1629022727804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629022242784" />
-    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1629022242784">
+    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629022727804" />
+    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1629022727803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629022242784" />
-    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1629022242784">
+    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629022727803" />
+    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1629022727803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629022242784" />
-    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1629022242784">
+    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629022727803" />
+    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1629022727804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629022242784" />
-    <state width="1323" height="266" key="GridCell.Tab.1.bottom" timestamp="1629022242785">
+    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629022727804" />
+    <state width="1323" height="266" key="GridCell.Tab.1.bottom" timestamp="1629022728279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629022242785" />
-    <state width="1323" height="266" key="GridCell.Tab.1.center" timestamp="1629022242784">
+    <state width="1323" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629022728279" />
+    <state width="1323" height="266" key="GridCell.Tab.1.center" timestamp="1629022728279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1629022242784" />
-    <state width="1323" height="266" key="GridCell.Tab.1.left" timestamp="1629022242784">
+    <state width="1323" height="266" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1629022728279" />
+    <state width="1323" height="266" key="GridCell.Tab.1.left" timestamp="1629022728279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1629022242784" />
-    <state width="1323" height="266" key="GridCell.Tab.1.right" timestamp="1629022242785">
+    <state width="1323" height="266" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1629022728279" />
+    <state width="1323" height="266" key="GridCell.Tab.1.right" timestamp="1629022728279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1629022242785" />
+    <state width="1323" height="266" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1629022728279" />
     <state x="553" y="86" key="RollbackChangesDialog" timestamp="1625048722146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -345,6 +352,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/ShellSort.java</url>
           <line>7</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/QuickSort.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
