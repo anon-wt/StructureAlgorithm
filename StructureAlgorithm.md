@@ -599,3 +599,20 @@
 
 3. 代码如下： [插入排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/InsertSort.java)
 
+# shell排序
+
+1. 基本介绍
+
+   ​        对于插入排序， 当需要插入的数较小时，后移的次数明显增多，对效率影响很大，shell 排序也是一种插入排序，它是在简单插入排序经过改进之后的一个更高的版本， 也成为缩小增量排序
+
+2. 基本思想
+
+   ​        把记录按下标的一定增量分组，对每组使用直接插入排序算法排序，随着增量的不断减少，每组包含的关键词越来越多，当增量减值1，整个文件被分成了一组，算法便终止
+
+3. 两种方法：
+
+   * [交换shell排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/ShellSort.java)
+   * [移位shell排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/ShellSort.java)
+
+# 快速排序
+
