@@ -616,3 +616,15 @@
 
 # 快速排序
 
+1. 基本介绍
+
+   快速排序是对冒泡排序的一种改进
+
+2. 基本思想
+
+   通过一趟排序将排序的数据分割为独立的两部分，其中一部分的所有数据都比另外的一部分的所有数据都要小，然后再按此方案对这狼部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列
+
+3. 代码
+
+   [快速排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/QuickSort.java)
+
