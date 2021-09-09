@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="快速 排序">
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StructureAlgorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +47,9 @@
       <recent name="D:\project\study\StructureAlgorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.BubbleSort" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.InsertSort" />
       <module name="StructureAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -60,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.InsertSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.sort.MergeSort" />
       <module name="StructureAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,11 @@
       <workItem from="1625646233922" duration="763000" />
       <workItem from="1625712151253" duration="4939000" />
       <workItem from="1626058146960" duration="5957000" />
-      <workItem from="1629009039750" duration="6152000" />
+      <workItem from="1629009039750" duration="6754000" />
+      <workItem from="1629202095011" duration="42000" />
+      <workItem from="1629720754144" duration="2459000" />
+      <workItem from="1629986795002" duration="203000" />
+      <workItem from="1631191304917" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="递归问题">
       <created>1624962303485</created>
@@ -231,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629022309279</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="快速 排序">
+      <created>1629022989230</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629022989230</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,30 +272,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="222" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1623827134377" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1629022320451">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1629022988348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629022320451" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629022988348" />
     <state x="122" y="55" key="DiffContextDialog" timestamp="1629022300303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="122" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1629022300303" />
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1629022727804">
+    <state width="798" height="316" key="GridCell.Tab.0.bottom" timestamp="1631193520417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629022727804" />
-    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1629022727803">
+    <state width="798" height="316" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631193520417" />
+    <state width="798" height="316" key="GridCell.Tab.0.center" timestamp="1631193520417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629022727803" />
-    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1629022727803">
+    <state width="798" height="316" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631193520417" />
+    <state width="798" height="316" key="GridCell.Tab.0.left" timestamp="1631193520417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629022727803" />
-    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1629022727804">
+    <state width="798" height="316" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631193520417" />
+    <state width="798" height="316" key="GridCell.Tab.0.right" timestamp="1631193520417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629022727804" />
+    <state width="798" height="316" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631193520417" />
     <state width="1323" height="266" key="GridCell.Tab.1.bottom" timestamp="1629022728279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

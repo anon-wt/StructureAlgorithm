@@ -628,3 +628,22 @@
 
    [快速排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/QuickSort.java)
 
+# 归并排序
+
+1. 基本介绍
+
+   ​	归并排序是利用归并的思想实现的排序方法，该算法采用经典的分治（divide-and-conquer）策略(分治法将问题分（divide）成一些小的问题然后**递归求解**，而治（conquer）的阶段得到的各答案“修补”在一起，即分而治之)。
+
+2. 基本思路：
+
+   ​	可以看到这种结构很想一颗完全二叉树，本文的归并排序我们采用递归去实现（也可采用迭代的方式去实现）
+
+   ​    分阶段可以理解为就是递归拆分子序列的过程
+
+   ​    治的阶段将两个有序的序列合并成一个有序数列，比如上图中的最后一次合并，要将【4，5，7，8】和【1,2,3,6】两个已经有序的子序列，合并为【1，2，3，4，5，6，7，8】
+
+3. 代码演示:
+
+   [归并排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/MergeSort.java)
+
+ 
