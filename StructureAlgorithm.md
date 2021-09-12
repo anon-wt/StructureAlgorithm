@@ -688,7 +688,7 @@
 
 
 
-# 排序算法比较
+## 排序算法比较
 
 
 
@@ -705,3 +705,90 @@
 | 计数     | O(n+k)      | O(n+k)        | O(n+k)        | O(k)       | out-place | 稳定   |
 | 桶       | O(n+k)      | O(n+k)        | O(n^2)        | O(n+k)     | out-place | 稳定   |
 | 基数     | O(n*k)      | O(n*k)        | O(n*k)        | O(n+k)     | out-place | 稳定   |
+
+
+
+# 查找算法
+
+Java中常用的查找算法有四种
+
+1. 顺序（线性）查找
+2. 二分法查找
+3. 插值查找
+4. 斐波那契查找
+
+​           有一个数列：{1，8，10，89，1000，1234}， 判断数列中是否包含此名称【顺序查找】要求：如果找到了就提示找到，并给出下标值
+
+##  顺序查找
+
+代码如下：[顺序查找算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/search/SeqSearch.java)
+
+## 二分查找
+
+1. 思路分析：
+
+   首先去顶数组的中间的下标mid=(left+right) /2
+
+   然后让需要查找的数findVal和arr[mid]比较
+
+   findVal > arr[mid], 说明你要查找的数在mid的右边，因此需要递归向右查找
+
+   findVal < arr[mid], 说明你要查找的数在mid的左边，因此需要递归向左查找
+
+   findVal = arr[mid],说明找到，就返回
+
+   什么时候结束递归？
+
+   1.找到就结束递归
+
+   2.递归完整个数组，仍然没有找到findVal, 也需要结束递归
+
+   3.当left>right就需要退出
+
+2. 代码如下：[二分法查找算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/search/BinarySearch.java)
+3. 课后思考题：增加了找到所有满足条件的元素，代码贱：binarySearch2方法
+
+## 插值查找
+
+1. 插值查找原理介绍
+
+   插值查找算法类似于二分查找，不同的是插值查找每次从自适应mid出查找
+
+2. 将折半查找中的求mid索引的公式，low表示左边索引left, hight表示右边索引right,key 就是前面我们讲的findVal
+
+   mid=(low+high)/2=low+1/2*(high-low)  => mid =low+(high-low)*(key-arr[low])/(arr[high] -arr[low])
+
+3. 代码如下：[插值查找算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/search/InsertSearch.java)
+
+4. 注意事项: 对于数据量较大的，关键字分布比较均匀的查找表来说，采用插值查找速度比较快
+
+   关键字分布不均匀的情况下，该方法不一定比二分法查找要好
+
+## 斐波那契查找
+
+1. 基本介绍
+
+   黄金分割点是指把一条线段分成两部分，是其中一部分与全场之比等于两一部分与这部分之比。取其前三位数近似值位0.618，由于按此比例色痕迹的造型十分美丽，因此成为 黄金分割，也成为中外比。这是一个神奇的数字，会带来意想不到的效果
+
+   斐波那契{1，1，2，3，5，8，13，21，34，55} 发现斐波那契数列两个相邻数的比例无限接近黄金分割值0.618
+
+2. 基本原理
+
+   斐波那契查找原理与前两种相似，仅仅改变了中间节点（mid）的位置，mid不再是中间值或者插值得到的而是位于黄金分割点附近，即mid=low+F(k-1)-1 （F代表斐波那契数列）。如下图所示 low-> F(k-1) -1<-mid->F(k-2) -1<-high   整体为F(k)-1
+
+   对于F(k-1)-1的理解：
+
+   由于斐波那契数列F(k)=F(k-1)+F(k-2)的性质，可以得到(F(k)-1) -1=(F(k-1)-1) +(F(k-2)-1)+1,该式说明，只要顺序表达长度为F(k)-1,则可以将该表分割为F(k-1)-1和F(k-2)-1的两段，即上图所示，mid=low+ F(k-1)-1
+
+   类似的每一个子段都可以以上述方式分割
+
+   但顺序表长度n不一定刚好等于F(k)-1,所以需要将原来的顺序表长度n增长至F(k)-1,这里的k值只要使得F(k)- >=n即可，由以下代码得到，顺序表长度增加后，新增的位置n+1到F(k)-1，都赋予n位置上的值即可
+
+   ```java
+   while(n>fib(k)-1) {
+       k++；
+   }
+   ```
+
+3. 代码如下：[斐波那契查找算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/search/FibonacciSearch.java)
+
