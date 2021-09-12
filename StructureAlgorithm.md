@@ -599,7 +599,7 @@
 
 3. 代码如下： [插入排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/InsertSort.java)
 
-# shell排序
+## shell排序
 
 1. 基本介绍
 
@@ -614,7 +614,7 @@
    * [交换shell排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/ShellSort.java)
    * [移位shell排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/ShellSort.java)
 
-# 快速排序
+## 快速排序
 
 1. 基本介绍
 
@@ -628,7 +628,7 @@
 
    [快速排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/QuickSort.java)
 
-# 归并排序
+## 归并排序
 
 1. 基本介绍
 
@@ -648,7 +648,7 @@
 
  
 
-# 基数排序
+## 基数排序
 
 1. 介绍
 
@@ -685,3 +685,23 @@
    基数排序是稳定排序
 
 4. 代码演示 [基数排序算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/sort/RadixSort.java)
+
+
+
+# 排序算法比较
+
+
+
+| 排序算法 | 平均时间    | 最好情况      | 最坏情况      | 空间复杂度 | 插入方式  | 稳定度 |
+| -------- | ----------- | ------------- | ------------- | ---------- | --------- | ------ |
+| 冒泡     | O(n^2)      | O(n)          | O(n^2)        | O(1)       | in-place  | 稳定   |
+| 交换     | O(n^2)      |               | O(n^2)        | O(1)       | in-place  | 不稳定 |
+| 选择     | O(n^2)      | O(n^2)        | O(n^2)        | O(1)       | in-place  | 不稳定 |
+| 插入     | O(n^2)      | O(n)          | O(n^2)        | O(1)       | in-place  | 稳定   |
+| shell    | O($n\logn$) | O($n\log^2n$) | O($n\log^2n$) | O(1)       | in-place  | 不稳定 |
+| 快速     | O($n\logn$) | O($n\logn$)   | O(n^2)        | O($logn$)  | in-place  | 不稳定 |
+| 归并     | O($n\logn$) | O($n\logn$)   | O($n\logn$)   | O(n)       | out-place | 稳定   |
+| 堆       | O($n\logn$) | O($n\logn$)   | O($n\logn$)   | O(1)       | in-place  | 不稳定 |
+| 计数     | O(n+k)      | O(n+k)        | O(n+k)        | O(k)       | out-place | 稳定   |
+| 桶       | O(n+k)      | O(n+k)        | O(n^2)        | O(n+k)     | out-place | 稳定   |
+| 基数     | O(n*k)      | O(n*k)        | O(n*k)        | O(n+k)     | out-place | 稳定   |
