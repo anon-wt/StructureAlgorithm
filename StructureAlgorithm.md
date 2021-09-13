@@ -792,3 +792,14 @@ Java中常用的查找算法有四种
 
 3. 代码如下：[斐波那契查找算法](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/algorithm/search/FibonacciSearch.java)
 
+# 哈希表
+
+1. 基本介绍
+   散列表（Hash table, 也叫哈希表）, 是根据关键码值（key value）而直接进行访问的数据结构。也就是说它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数也叫散列函数，存放记录的数组叫做散列表。
+
+2. 上机题
+   有一个公司，当有新的员工来报道时，要求该员工的信息加入{id,name,age...},当输入该员工的id时,要求查找到该员工的所有信息
+    1. 不适用数据库，速度越快越好=》hash表
+     2. 添加时，保证按照id从低到高插入
+     3. 思考题： 添加时，如果id不是从低到高插入，但是要求各链表仍是从底到高，怎么解决
+3. 代码 [哈希表][双向表代码](https://github.com/anon-wt/StructureAlgorithm/blob/master/src/main/java/com/study/structure/hashtable/HashTable.java)
