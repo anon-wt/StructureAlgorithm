@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="总结">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/HashTree.java" afterDir="false" />
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StructureAlgorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/StructureAlgorithm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/HashTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/HashTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,17 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HashTree" />
@@ -191,7 +178,8 @@
       <workItem from="1629986795002" duration="203000" />
       <workItem from="1631191304917" duration="6473000" />
       <workItem from="1631407102464" duration="9761000" />
-      <workItem from="1631522314349" duration="5115000" />
+      <workItem from="1631522314349" duration="5418000" />
+      <workItem from="1631599750660" duration="4452000" />
     </task>
     <task id="LOCAL-00001" summary="递归问题">
       <created>1624962303485</created>
@@ -291,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631410160419</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hashtable_01">
+      <created>1631529457752</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631529457753</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +303,8 @@
     <MESSAGE value="归并排序" />
     <MESSAGE value="基数排序" />
     <MESSAGE value="总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="总结" />
+    <MESSAGE value="hashtable_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashtable_01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,7 +349,17 @@
           <line>32</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/structure/tree/HashTree.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StructureAlgorithm$HashTree.ic" NAME="HashTree Coverage Results" MODIFIED="1631601887612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.study.structure.tree.*</FILTER>
+    </SUITE>
   </component>
 </project>
