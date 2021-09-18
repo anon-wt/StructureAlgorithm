@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="BinaryTreeDemo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/BinaryTreeDemo.java" afterDir="false" />
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="二叉树">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/ArrBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/ThreadedBinaryTree/ThreadedBinaryTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StructureAlgorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
     </list>
@@ -49,23 +50,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/study/structure/tree" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\study\StructureAlgorithm\src\main\java\com\study\structure\tree" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\study\StructureAlgorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeDemo">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.search.BinarySearch" />
+  <component name="RunManager" selected="Application.ArrBinaryTreeDemo">
+    <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.structure.tree.ArrBinaryTreeDemo" />
       <module name="StructureAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.algorithm.search.*" />
+          <option name="PATTERN" value="com.study.structure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrBinaryTreeDemo" />
         <item itemvalue="Application.BinaryTreeDemo" />
         <item itemvalue="Application.HashTree" />
         <item itemvalue="Application.FibonacciSearch" />
         <item itemvalue="Application.InsertSearch" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +197,7 @@
       <workItem from="1631522314349" duration="5418000" />
       <workItem from="1631599750660" duration="6213000" />
       <workItem from="1631756941046" duration="587000" />
-      <workItem from="1631782532398" duration="5132000" />
+      <workItem from="1631782532398" duration="13672000" />
     </task>
     <task id="LOCAL-00001" summary="递归问题">
       <created>1624962303485</created>
@@ -307,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631605094725</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="二叉树">
+      <created>1631872087888</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1631872087888</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +338,8 @@
     <MESSAGE value="hashtable_01" />
     <MESSAGE value="hashtable_02" />
     <MESSAGE value="BinaryTreeDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinaryTreeDemo" />
+    <MESSAGE value="二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -371,11 +383,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/study/algorithm/search/FibonacciSearch.java</url>
           <line>32</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/study/structure/tree/HashTree.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
