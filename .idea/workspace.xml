@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="二叉树">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/BinarySortTreeDemo.java" afterDir="false" />
+    <list default="true" id="efe10194-252e-4364-ab2c-6c7efd2014cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StructureAlgorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/StructureAlgorithm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/BinarySortTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/structure/tree/BinarySortTreeDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +198,7 @@
       <workItem from="1631782532398" duration="13672000" />
       <workItem from="1632277706461" duration="4564000" />
       <workItem from="1632362551319" duration="293000" />
-      <workItem from="1632379822060" duration="5906000" />
+      <workItem from="1632379822060" duration="18112000" />
     </task>
     <task id="LOCAL-00001" summary="递归问题">
       <created>1624962303485</created>
@@ -320,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631872087888</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="二叉顺序树">
+      <created>1632393185348</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1632393185348</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +347,8 @@
     <MESSAGE value="hashtable_02" />
     <MESSAGE value="BinaryTreeDemo" />
     <MESSAGE value="二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
+    <MESSAGE value="二叉顺序树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉顺序树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

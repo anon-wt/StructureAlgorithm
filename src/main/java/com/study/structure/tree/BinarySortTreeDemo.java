@@ -2,7 +2,7 @@ package com.study.structure.tree;
 
 public class BinarySortTreeDemo {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arr = {7, 3, 10, 12, 5, 1, 9};
         BinarySortTree binarySortTree = new BinarySortTree();
         for (int i : arr) {
             binarySortTree.add(new BSTNode(i));
@@ -39,12 +39,21 @@ class BinarySortTree {
         }
     }
 
-    public BSTNode query(int value) {
+    public BSTNode search(int value) {
         if(root == null) {
             System.out.println("该节点为空");
             return null;
         } else {
-            return root.query(value);
+            return root.search(value);
+        }
+    }
+
+    public BSTNode queryParent(int value) {
+        if(root == null) {
+            System.out.println("该节点为空");
+            return null;
+        } else {
+            return root.queryParent(value);
         }
     }
 
@@ -54,6 +63,66 @@ class BinarySortTree {
             System.out.println("根节点为空");
         } else {
             root.infixSearch();
+        }
+    }
+
+    public BSTNode findMinNode(BSTNode node) {
+        if (node == null ) {
+            return null;
+        }
+
+        BSTNode minNode = node;
+        BSTNode parent = node;
+        while (minNode.getLeft() != null) {
+            parent = minNode;
+            minNode = minNode.getLeft();
+        }
+        parent.setLeft(null);
+        return minNode;
+    }
+
+    public void delNode(int value) {
+        if (root == null) {
+            return;
+        } else {
+            BSTNode targetNode = search(value);
+            // 如果没有找到
+            if (targetNode == null) {
+                return;
+            }
+            // 如果找到了只有根节点一个结点， 直接把跟节点置空
+            if (root.getLeft() == null && root.getRight() == null) {
+                root = null;
+                return;
+            }
+            BSTNode parentNode = queryParent(value);
+            // 如果是叶子节点， 判断是父节点的左节点还是右节点
+            if(targetNode.getRight() == null && targetNode.getLeft() == null) {
+                if (parentNode.getLeft() != null && parentNode.getLeft().getValue() == value) {
+                    parentNode.setLeft(null);
+                } else if (parentNode.getRight() != null && parentNode.getRight().getValue() == value) {
+                    parentNode.setRight(null);
+                }
+            } else if(targetNode.getRight() != null && targetNode.getLeft() != null) { // 有两个子节点
+                // 将右子树的最小节点删除，并把值赋给该节点
+                BSTNode minNode = findMinNode(targetNode.getRight());
+                targetNode.setValue(minNode.getValue());
+            } else { // 有一个子节点
+                if (targetNode.getLeft() != null) {
+                    if (parentNode.getLeft().getValue() == targetNode.getValue()) {
+                        parentNode.setLeft(targetNode.getLeft());
+                    } else {
+                        parentNode.setRight(targetNode.getLeft());
+                    }
+                } else  {
+                    if (parentNode.getLeft().getValue() == targetNode.getValue()) {
+                        parentNode.setLeft(targetNode.getRight());
+                    } else {
+                        parentNode.setRight(targetNode.getRight());
+                    }
+                }
+
+            }
         }
     }
 
@@ -124,18 +193,18 @@ class BSTNode {
     }
 
     // 4. 查找结点
-    public BSTNode query(int value) {
+    public BSTNode search(int value) {
         if (value == this.value) {
             return this;
         } else if (value < this.value) {
             if (this.getLeft() != null) {
-                return this.getLeft().query(value);
+                return this.getLeft().search(value);
             } else {
                 return null;
             }
         } else {
             if (this.getRight() != null) {
-                return this.getRight().query(value);
+                return this.getRight().search(value);
             } else {
                 return null;
             }
@@ -146,12 +215,14 @@ class BSTNode {
        if((this.getLeft() != null && this.getLeft().getValue() == value) ||
                (this.getRight() != null && this.getRight().getValue() == value)) {
             return this;
-        } else if (this.getLeft() == null && this.getRight() != null) {
-            return this.getRight().queryParent(value);
-        } else if (this.getRight() == null && this.getLeft() != null) {
-           return this.getLeft().queryParent(value);
-       } else {
-           return null;
+        } else {
+           if (value < this.getValue() && this.getLeft() != null) {
+               return this.getLeft().queryParent(value);
+           } else if (value >= this.getValue() && this.getRight() != null) {
+               return this.getRight().queryParent(value);
+           } else {
+               return null;
+           }
        }
     }
 
